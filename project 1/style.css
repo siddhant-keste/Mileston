@@ -1,0 +1,411 @@
+
+        *{
+            padding: 0;
+            margin: 0;
+        }
+
+        body{
+            font-family: 'Roboto', sans-serif;
+
+        }
+
+
+        .container{
+            background-color: white;
+        }
+
+        .nav{
+            /* border: 1px solid black; */
+            margin-top: 50px;
+            background-color: white;
+            display: flex;
+            justify-content: space-around;
+            height: 50px;
+        }
+        .logo{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 25px;
+            color: black;
+            font-weight: bold;
+        }
+
+        .tabs{
+            width: 500px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            
+        }
+
+        a{
+            text-decoration: none;
+            color: #8b8787;
+        }
+
+        a:hover{
+            color: orangered;
+        }
+
+        button,.start,.lernmore{
+            border: 2px solid rgb(0, 0, 0);
+            padding: 15px;
+            text-align: center;
+            width: 150px;
+            background-color: white;
+            font-size: 15px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+
+
+
+
+
+
+
+
+
+        /* body section */
+
+        .middelsection{
+            display: flex;
+            margin-top: 100px;
+            /* border: 1px solid black; */
+            justify-content: space-around;
+        }
+
+        .content{
+            /* border: 1px solid black; */
+            width: 50%;
+            padding-left: 100px;
+           
+        }
+
+
+        .heading{
+            line-height: 100px;
+            font-size: 60px;
+            font-weight: bold;
+        }
+
+        .message{
+            margin-top: 20px;
+            line-height: 25px;
+            border-left: 1px solid black;
+            padding-left: 10px;
+            color: #8b8787;
+
+        }
+
+        .btn{
+            margin-top: 30px;
+            display: flex;
+            gap: 30px;
+        }
+
+        .lernmore:hover{
+
+            background-color: orangered;
+            color: white;
+            cursor: pointer;
+        }
+
+        .start:hover{
+            background-color: orangered;
+            color: white;
+            cursor: pointer;
+        }
+
+
+
+        .picture{
+            /* border: 1px solid black; */
+            width: 50%;
+            display: flex;
+            justify-content: center;
+            
+        }
+
+        .pattern{
+            position: absolute;
+            top: 175px;
+        }
+        .mainimg{
+            position: absolute;
+            height: 55%;
+        }
+        .circle{
+            position: absolute;
+            right: 110px;
+            bottom: 100px;
+        }
+        .garrow{
+            position: absolute;
+            bottom: 30px;
+            right: 550px;
+        }
+        .oarrow{
+            position: absolute;
+            top: 200px;
+            right: 650px;
+        }
+        .carrow{
+            position: absolute;
+            left: 35%;
+            top: 70%;
+        }
+
+
+
+
+
+
+
+
+        /* footer section */
+
+        .footer{
+            border: 1px solid black;
+            display: flex;
+            margin-top: 70px;
+            padding: 50px;
+            justify-content: space-around;
+            background-color: #272443;
+            color: white;
+        }
+
+        .msg{
+            font-size: 40px;
+            line-height: 50px;
+            font-weight: bold;
+        }
+        .smsg{
+            margin-top: 10px;
+            line-height: 30px;
+        }
+        .teacher img{
+            background-color: #1cd7af;
+            font-size: 30px;
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        .title{
+            margin-top: 20px;
+            font-size: 20px;
+            font-weight: bold;
+
+        }
+        .courses img{
+            background-color: #fd5b10;
+            font-size: 30px;
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        .support img{
+            background-color: #535bf0;
+            font-size: 30px;
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        .submsg{
+            padding-top: 20px;
+            line-height: 30px;
+            color: #8b889a;
+            
+        }
+        .nav2{
+            display: none;
+        }
+
+        .middelsection2{
+            display: none;
+        }
+
+
+
+        @media screen and (max-width:600px){
+            
+            .nav{
+                display: none;
+                /* background-color: #fd5b10; */
+            }
+
+            .tabs{
+                display: none;
+            }
+            .nav2{
+                border: 1px solid black;
+                margin-top: 30px;
+                display: flex;
+                justify-content: space-around;
+                /* display: block; */
+                width: 100%;
+                /* align-items: center; */
+            }
+
+            .nav2>.logo{
+                /* border: 1px solid black; */
+                /* width: 200px; */
+                height: 30px;
+                height: 100%;
+                /* align-items: center; */
+
+
+            }
+
+            .nav2>.manu>img{
+                height: 100%;
+                /* border: 1px solid black; */
+            }
+
+            .nav2>.propicture>img{
+                height: 100%;
+                padding-right: 15px;
+            }
+
+
+
+            .middelsection{
+               display: none;
+            }
+
+            .middelsection2{
+                display: flex;
+                flex-direction: column;
+            }
+  
+
+            .middelsection2 .content{
+                border: 1px solid black;
+                width: 100%;
+                display: flex;
+                padding-left: 50px;
+                flex-direction: column;
+                align-items: start;
+                /* justify-content: start; */
+                margin-top: 50px;
+                /* justify-content: space-between; */
+            }
+            .heading{
+                /* border: 1px solid green; */
+                width: 100%;
+                font-size: 45px;
+                line-height: 70px;
+                font-weight: bold;
+
+
+            }
+
+            .middelsection2 .message{
+                margin-top: 50px;
+                font-size: 20px;
+                line-height: 30px;
+            }
+
+
+
+            .middelsection2 .picture{
+            /* border: 1px solid rgb(231, 11, 11); */
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            /* display: none; */
+            margin-top: 100px;
+            
+        }
+
+        .middelsection2 .pattern{
+            position: absolute;
+            top: 450px;
+        }
+        .middelsection2 .mainimg{
+            position: absolute;
+            height: 55%;
+        }
+        .middelsection2 .circle{
+            position: absolute;
+            right: 110px;
+            bottom: 100px;
+        }
+        .middelsection2 .garrow{
+            position: absolute;
+            top: 129%;
+            left: 70px;
+        }
+        .middelsection2 .oarrow{
+            position: absolute;
+            top: 420px;
+            left: 100px;
+            /* border: 1px solid rgb(255, 0, 0); */
+        }
+        .carrow{
+            position: absolute;
+            left: 80%;
+            top: 165%;
+        }
+
+
+        .middelsection2 .btn{
+            /* border: 1px solid green; */
+            width: 100%;
+            display: flex;
+            gap: 70px;
+            margin-top: 100px;
+            /* justify-content: space-between; */
+
+        }
+
+
+
+             .lernmore:hover{
+
+                background-color: orangered;
+                color: white;
+                cursor: pointer;
+            }
+            
+            .start:hover{
+                background-color: orangered;
+                color: white;
+                cursor: pointer;
+            }
+
+            .footer{
+                margin-top: 110px;
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                align-items: center;
+                text-align: center;
+                gap: 50px;
+
+            }
+
+            .msg{
+                font-size: 40px;
+            }
+
+            .submsg{
+                font-size: 15px;
+            }
+
+
+
+
+       
+
+     
+
+        }
+
+
+
+
+
